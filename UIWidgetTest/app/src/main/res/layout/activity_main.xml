@@ -40,5 +40,13 @@
         android:layout_height="wrap_content"
         android:src="@drawable/image_2"
         />
+    <ProgressBar
+        android:id="@+id/process_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="45"
+
+        />
 
 </LinearLayout>
