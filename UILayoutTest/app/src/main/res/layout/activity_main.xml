@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+  >
+    <!--线性布局  LinearLayout-->
+   <!--<Button-->
+       <!--android:id="@+id/button1"-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:text="Button1"-->
+       <!--android:textAllCaps="false"-->
+       <!--android:layout_gravity="top"-->
+       <!--/>-->
+    <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Button2"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:id="@+id/button3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Button3"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/input_message"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:hint="Type something"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:id="@+id/send"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Send"-->
+        <!--/>-->
+
+
+
+    <!--相对布局   RelativeLayout-->
+    <!--<Button-->
+        <!--android:id="@+id/button3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:text="button3"-->
+        <!--/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@id/button3"-->
+        <!--android:layout_toLeftOf="@id/button3"-->
+        <!--android:text="button1"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+       <!--android:layout_above="@id/button3"-->
+        <!--android:layout_toRightOf="@id/button3"-->
+        <!--android:text="button2"-->
+        <!--/>-->
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/button3"-->
+        <!--android:layout_toLeftOf="@id/button3"-->
+        <!--android:text="button4"-->
+        <!--/>-->
+    <!--<Button-->
+        <!--android:id="@+id/button5"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/button3"-->
+        <!--android:layout_toRightOf="@id/button3"-->
+        <!--android:text="button5"-->
+        <!--/>-->
+        <!--帧布局 FrameLayout-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/text_view"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="This is TextView"-->
+        <!--android:layout_gravity="left"-->
+        <!--/>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/image_view"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/ic_launcher"-->
+        <!--android:layout_gravity="right"-->
+        <!--/>-->
+    <!--百分比布局 android.support.percent.PercentFrameLayout-->
+    <Button
+        android:id="@+id/button1"
+        android:text="button 1"
+        android:layout_gravity="left|top"
+        app:layout_widthPercent = "50%"
+        app:layout_heightPercent = "50%"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:text="button 2"
+        android:layout_gravity="right|top"
+        app:layout_widthPercent = "50%"
+        app:layout_heightPercent = "50%"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:text="button 3"
+        android:layout_gravity="bottom|left"
+        app:layout_widthPercent = "50%"
+        app:layout_heightPercent = "50%"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:text="button 4"
+        android:layout_gravity="right|bottom"
+        app:layout_widthPercent = "50%"
+        app:layout_heightPercent = "50%"
+        />
+
+</android.support.percent.PercentFrameLayout>

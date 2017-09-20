@@ -97,11 +97,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                });
 //                dialog.show();
 
-                ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
-                progressDialog.setTitle("This is ProgressDialog");
-                progressDialog.setMessage("Loading");
-                progressDialog.setCancelable(true);
-                progressDialog.show();
+//                ProgressDialog progressDialog = new ProgressDialog(MainActivity.this);
+//                progressDialog.setTitle("This is ProgressDialog");
+//                progressDialog.setMessage("Loading");
+//                progressDialog.setCancelable(true);
+//                progressDialog.show();
 
 //                int progress = progressBar.getProgress();
 //                progress = progress + 10;
